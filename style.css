@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.card-body {
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    border: 2px solid hsl(244, 38%, 16%);
+    border-radius: 8px;
+
+}
+
+.left-side {
+
+    max-width: 550px;
+    text-align: left;
+    padding-left: 15px;
+    background: hsl(244, 38%, 16%);
+}
+
+.left-header {
+    color: #fff;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 38px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.left-side p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 120%;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    padding-top: 15px;
+
+}
+
+.left-list {
+    position: absolute;
+    display: flex;
+
+    color: #fff;
+    padding-left: 15px;
+    bottom: 0;
+    padding-bottom: 25px;
+}
+
+.left-list h3 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.left-list p {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.block1 {
+    padding-left: 15px;
+    display: block;
+
+
+
+}
+
+.block2 {
+    padding-left: 15px;
+    display: block;
+
+}
+
+.block3 {
+    padding-left: 15px;
+    display: block;
+
+}
+
+.right-side {
+    max-width: 550px;
+    display: flex;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(277, 64%, 61%);
+}
+
+
+
+@media (max-width:375px) {
+    .card {
+
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin: 100px auto;
+        position: relative;
+
+
+    }
+
+    .left-side {
+        padding-bottom: 160px;
+    }
+
+    .left-side h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .left-side p {
+        padding-bottom: 150px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+
+    .left-list {
+        position: relative;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 300px;
+        position: absolute;
+        top: 210px;
+        right: 0;
+        left: 0;
+
+    }
+
+    .right-side img {
+        max-width: 375px;
+    }
+}
